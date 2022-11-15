@@ -179,9 +179,9 @@
   display: grid;
   -ms-grid-columns: 1fr 20px 1fr;
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px 100px;
+  gap: 50px 70px;
   padding: 20px 0;
-  max-width: 850px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 .psd-features-grid-item {
@@ -251,9 +251,23 @@
   grid-template-columns: repeat(3, 1fr);
 }
 .psd-features-grid-item-content {
+  .love-tip {
+    padding-bottom: 10px;
+  }
   ul,
   p {
     text-align: left;
+  }
+  ul {
+    padding-left: 0;
+
+    @media (max-width: 1099px) {
+      padding-left: 12px;
+    }
+
+    li {
+      padding-bottom: 9px;
+    }
   }
 }
 .psd-love-grid-item {

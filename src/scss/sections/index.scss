@@ -1,9 +1,5 @@
 @forward "./refrigeratorBuyingGuide";
 
-html {
-  font-family: "ZonaPro", sans-serif;
-}
-/* Remove default margin */
 body,
 h1,
 h2,
@@ -16,6 +12,8 @@ figure {
 }
 
 .refrigerator_buying_guide {
+  font-family: "ZonaPro", sans-serif;
+
   /* Box sizing rules */
   *,
   *::before,
