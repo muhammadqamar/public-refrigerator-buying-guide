@@ -1,0 +1,45 @@
+@forward "./refrigeratorBuyingGuide";
+
+html {
+  font-family: "ZonaPro", sans-serif;
+}
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.refrigerator_buying_guide {
+  /* Box sizing rules */
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* Make images easier to work with */
+  img,
+  picture {
+    max-width: 100%;
+    display: block;
+  }
+
+  .psd-container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .psd-container-small {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+}
